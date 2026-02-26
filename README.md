@@ -9,7 +9,7 @@ Create beautifully styled QR codes in real time with full design control and log
 ## 🌐 Live Demo
 
 👉 **Try it here:**  
-[https://your-live-demo-link.com](https://qr-generator-xi-snowy.vercel.app/)
+[DEMO](https://qr-generator-xi-snowy.vercel.app/)
 
 
 ---
