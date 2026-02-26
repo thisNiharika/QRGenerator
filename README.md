@@ -34,5 +34,5 @@ Create beautifully styled QR codes in real time with full design control and log
 ### Clone the repository
 
 ```bash
-git clone [https://github.com/your-username/qr-creator.git](https://github.com/thisNiharika/QRGenerator.git)
+git clone https://github.com/thisNiharika/QRGenerator.git
 cd qr-creator
