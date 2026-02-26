@@ -315,3 +315,77 @@ input[type="range"]::-webkit-slider-thumb {
   background: #b084f5;
   cursor: pointer;
 }
+
+
+@media (max-width: 1024px) {
+  .layout {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .form-panel,
+  .preview-panel {
+    padding: 40px 30px;
+            width: 60%;
+        margin: auto;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .layout {
+    gap: 30px;
+  }
+
+
+  .form-panel,
+  .preview-panel {
+    padding: 30px 20px;
+    border-radius: 18px;
+            width: 33%;
+        margin: 65px 36% 0;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  input,
+  select {
+    font-size: 13px;
+    padding: 12px;
+  }
+
+  .color-row {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .preview-content {
+    min-height: 300px;
+  }
+
+  .qr-box {
+    transform: scale(0.9);
+  }
+
+  .download-btn {
+    width: 100%;
+  }
+
+  .logo-drop-zone {
+    padding: 18px;
+  }
+
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+
+.qr-box canvas,
+.qr-box svg {
+  max-width: 100%;
+  height: auto;
+}
